@@ -25,6 +25,13 @@ export default function App() {
             <button className="btn btn-primary">EXPLORE COLLECTION</button>
             <button className="btn btn-secondary">DISCOVER NOW
             </button>
+            <a
+  href="https://instagram.com"
+  className="btn btn-primary"
+  target="_blank"
+>
+  SEND DM
+</a>
           </div>
 
           <div className="scroll-indicator">
@@ -37,8 +44,7 @@ export default function App() {
         <div className="gradient-bg gradient-2"></div>
         <div className="gradient-bg gradient-3"></div>
       </section>
-
-      {/* Collection Section */}
+      
       <section className="collection-section">
         <h2 className="section-title">FEATURED COLLECTION</h2>
         <div className="gallery-grid">
@@ -75,3 +81,4 @@ export default function App() {
     </div>
   )
 }
+
